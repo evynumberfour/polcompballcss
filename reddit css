@@ -1,0 +1,96 @@
+body {
+  font:normal x-small verdana, arial, helvetica, sans-serif;
+  background-color:#333377;
+  z-index:1;
+}
+#header {
+    border-bottom: 1px solid #111155;
+    position: relative;
+    background-color: #222266;
+    z-index: 99
+}
+.side {
+    float: right;
+    background-color: #448;
+    margin: 0px 5px 0 5px;
+    width: 300px
+}
+
+.side .spacer {
+    margin: 7px 0 12px 0
+}
+
+.side .side-message {
+    background: #448 no-repeat 10px 10px;
+    border: 1px solid #edce42;
+    border-radius: 2px;
+    padding: 10px;
+    line-height: 1.75em
+}
+
+.side .side-message.gold {
+    font-family: serif;
+    border: 1px solid #226;
+    box-shadow: 0 0 10px #337 inset;
+    border-radius: 0
+}
+level 1
+gavin19
+1 point ·
+3 years ago
+
+.pagename a { color: #fff; }
+
+.sidecontentbox .content {
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #226;
+    font-size: larger;
+    list-style: none;
+}
+*{
+color: #eeee;
+}
+
+.link .usertext-body .md {
+    background-color:
+#115;
+border: 1px solid
+    #369;
+    border-radius: 7px;
+}
+.archived-infobar.with-icon::before {
+    background-color:
+    #ee0;
+    background-repeat: no-repeat;
+}
+.archived-infobar {
+    background-color:
+#115;
+border-color:
+    #448;
+}
+button {
+color:#000;
+}
+
+element {
+
+}
+input[type="text"], .login-form-side input[type="password"] {
+
+    font-family: verdana;
+    font-size: 11px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid
+
+    #115;
+    width: 141px;
+    margin: 5px 0px 0px 5px;
+    top: 5px;
+    padding: 6px;
+    color:#000;
+
+}

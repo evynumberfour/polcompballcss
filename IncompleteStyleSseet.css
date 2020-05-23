@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.side {
+  padding: 10px;
+  margin-right: 0px;
+
+  box-shadow: 0 0 10px #969696;
+}
+
+#header {
+  background-image:url(%%BannerLoopable%%);
+  background-position: center;
+
+  height: 122px;
+
+  border-color: #000000;
+
+  box-shadow: 0 0 10px #969696;
+}
+
+#header-bottom-left, #header-bottom-right {
+  background: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  position: absolute;
+  padding: 3px;
+  border-width: 1px;
+}
+
+#header-bottom-left {
+  float: left;
+  border-radius: 0 10px 0 0;
+  border-top-style: solid;
+  border-right-style: solid;
+  padding-bottom: 0;
+}
+
+#header-bottom-right {
+  float: rigth;
+  border-radius: 7px 0 0 0;
+  border-top-style: solid;
+  border-left-style: solid;
+}
+
+.tabmenu {
+  display: block;
+}
+
+
+
+.tabmenu li.selected a {
+  border-color: #000000;
+  border-bottom-style: none;
+}
+
+.nub {
+  display: none;
+}
+
+/* No ads for Reddit :) */
+.premium-banner-outer {
+  display: none;
+}

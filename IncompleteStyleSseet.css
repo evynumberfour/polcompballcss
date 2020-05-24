@@ -1,64 +1,108 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .side {
-  padding: 10px;
-  margin-right: 0px;
-
-  box-shadow: 0 0 10px #969696;
+    padding: 10px;
+    margin-right: 0px;
+    box-shadow: 0 0 7px #b0b0b0;
+    border-radius: 0 0 0 5px;
 }
 
 #header {
-  background-image:url(%%BannerLoopable%%);
-  background-position: center;
-
-  height: 122px;
-
-  border-color: #000000;
-
-  box-shadow: 0 0 10px #969696;
+    background-image:url(%%BannerLoopable%%);
+    background-position: center;
+    height: 122px;
+    border-color: #000000;
+    box-shadow: 0 0 7px #b0b0b0;
 }
 
 #header-bottom-left, #header-bottom-right {
-  background: rgba(255, 255, 255, 0.9);
-  bottom: 0;
-  position: absolute;
-  padding: 3px;
-  border-width: 1px;
+    background: rgba(255, 255, 255, 0.9);
+    bottom: 0;
+    position: absolute;
+    padding: 3px;
+    border-width: 1px;
 }
 
 #header-bottom-left {
-  float: left;
-  border-radius: 0 10px 0 0;
-  border-top-style: solid;
-  border-right-style: solid;
-  padding-bottom: 0;
+    float: left;
+    border-radius: 0 10px 0 0;
+    border-top-style: solid;
+    border-right-style: solid;
+    padding-bottom: 0;
 }
 
 #header-bottom-right {
-  float: rigth;
-  border-radius: 7px 0 0 0;
-  border-top-style: solid;
-  border-left-style: solid;
+    float: rigth;
+    border-radius: 7px 0 0 0;
+    border-top-style: solid;
+    border-left-style: solid;
+}
+
+.default-header, .pagename{
+    margin-bottom: 3px;
 }
 
 .tabmenu {
-  display: block;
+    display: block;
+    padding-bottom: 1px;
 }
 
-
-
 .tabmenu li.selected a {
-  border-color: #000000;
-  border-bottom-style: none;
+    border-color: #000000;
+}
+
+.tabmenu li a {
+    background-color: transparent;
+    padding-bottom: 1px;
+    border-radius: 3px 3px 0 0;
+}
+
+.sitetable {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 330px;
+}
+
+.link, .comment {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 7px #b0b0b0;
+}
+
+.link {
+    padding: 10px;
+}
+
+.comment {
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.link .title { 
+    padding-bottom: 5px;
+}
+
+.content {
+    margin-left: 0px; 
+}
+
+.sitetable .md {
+    background: #ffffff;
+    border: 0;
+    border-radius: 4px;
+}
+
+.child {
+    display: none !important;
 }
 
 .nub {
-  display: none;
+    display: none;
 }
 
 /* No ads for Reddit :) */
 .premium-banner-outer {
-  display: none;
+    display: none;
 }

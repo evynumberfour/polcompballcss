@@ -106,3 +106,41 @@ body {
 .premium-banner-outer {
     display: none;
 }
+
+/* replace the urls with actual image file locations */
+/*
+Normally, the button is a still image, but on mouse hover, it moves
+.expando-button {
+    background-image: url(expandoButton.png);
+    background-size: cover;
+	background-repeat: no-repeat;
+}
+.expando-button:hover {
+    background-image: url(expandoButton.gif)
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*/
+/*
+.arrow.up {
+    background-image: url(upvote.png)
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.arrow.down {
+    background-image: url(downvote.png)
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.arrow.upmod {
+    background-image: url(upvoted.png)
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.arrow.downmod {
+    background-image: url(downvoted.png)
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*/
+
